@@ -7,5 +7,3 @@ import java.util.List;
 public interface UserRepository extends MongoRepository<User, Integer> {
 
 }
-
-//mongodb+srv://vaguecoder145:9TIqZirEaVb5iXll@cluster0.bjaba4c.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0

@@ -29,7 +29,7 @@ public class UserController {
         return userService.deleteUser(id);
     }
 
-    @PutMapping("/updateUser/{id}")
+    @PutMapping("/updateuser/{id}")
     public User updateUser(
             @RequestBody User user,
             @PathVariable Integer id

@@ -3,7 +3,6 @@ package com.example.authentication.controller;
 import com.example.authentication.model.User;
 import com.example.authentication.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.mongodb.repository.Update;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
